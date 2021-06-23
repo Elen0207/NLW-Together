@@ -1,6 +1,7 @@
 import { useHistory } from 'react-router-dom';
 import { useAuth } from '../hooks/useAuth';
 import { Button } from '../components/Button';
+import { ToggleThemeButton } from '../components/ToggleThemeButton';
 
 import illustrationImg from '../assets/images/illustration.svg';
 import logoImg from '../assets/images/logo.svg';
@@ -29,6 +30,9 @@ export function Home() {
       </aside>
       <main>
         <div className="main-content">
+          <div className="toggleThemeContainer">
+            <ToggleThemeButton />
+          </div>
           <img src={logoImg} alt="Letmeask" />
           <button onClick={handleCreateRoom} className="create-room">
             <img src={googleIconImg} alt="Logo do google" />
