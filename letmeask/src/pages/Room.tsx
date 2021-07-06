@@ -1,19 +1,20 @@
+import { FormEvent, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { database } from '../services/firebase';
 import { useAuth } from '../hooks/useAuth';
-import { FormEvent, useState } from 'react';
-
+import { useRoom } from '../hooks/useRoom';
 import { Button } from '../components/Button';
 import { RoomCode } from '../components/RoomCode';
+import { Question } from '../components/Question';
+
 import logoImg from '../assets/images/logo.svg';
 import '../styles/room.scss';
-import { Question } from '../components/Question';
-import { useRoom } from '../hooks/useRoom';
 
 
 type RoomParams = {
 	id: string;
 }
+
 
 export function Room () {
 	const { user } = useAuth();
@@ -103,6 +104,8 @@ export function Room () {
 								key={question.id}
 								content={question.content} 
 								author={question.author} 
+								isAnswered={question.isAnswered}
+								isHighlighted={question.isHighlighted}
 							>
 								<button
 									className={`like-button ${question.likeId? 'liked' : ''}`}
