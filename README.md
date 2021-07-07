@@ -1,7 +1,7 @@
 # NLW-Together
 
 <p align="center">
-  <img alt="Letmeask" src=".github/logo.svg" width="160px">
+  <img alt="Letmeask" src=".github/Elen0207/NLW-Together/blob/main/letmeask/src/assets/images/logo.svg" width="160px">
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
 </p>
 
 <h1 align="center">
-    <img alt="Letmeask" title="Letmeask" src=".github/cover.svg" />
+    <img alt="Letmeask" title="Letmeask" src=".github/Elen0207/NLW-Together/blob/main/letmeask/src/assets/images/cover.svg"; />
 </h1>
 
 <br>
@@ -31,7 +31,7 @@ This project was developed using the following technologies:
 Clone the project and access the folder.
 
 ```bash
-$ git clone https://github.com/guilhermecapitao/letmeask.git
+$ git clone https://github.com/Elen0207/letmeask.git
 $ cd letmeask
 ```
 
