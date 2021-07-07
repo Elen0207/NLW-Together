@@ -1,7 +1,7 @@
 # NLW-Together
 
 <p align="center">
-  <img alt="Letmeask" src=".github/Elen0207/NLW-Together/blob/main/letmeask/src/assets/images/logo.svg" width="160px">
+  <img alt="Letmeask" src="./letmeask/src/assets/images/logo.svg" width="160px">
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
 </p>
 
 <h1 align="center">
-    <img alt="Letmeask" title="Letmeask" src=".github/Elen0207/NLW-Together/blob/main/letmeask/src/assets/images/cover.svg"; />
+    <img alt="Letmeask" title="Letmeask" src="./letmeask/src/assets/images/cover.svg" />
 </h1>
 
 <br>
@@ -31,17 +31,17 @@ This project was developed using the following technologies:
 Clone the project and access the folder.
 
 ```bash
-$ git clone https://github.com/Elen0207/letmeask.git
+$ git clone https://github.com/Elen0207/NLW-Together.git
 $ cd letmeask
 ```
 
 Follow the steps below:
 ```bash
 # Install the dependencies
-$ yarn
+$ npm
 
 # Start the project
-$ yarn start
+$ npm start
 ```
 The app will be available for access on your browser at http://localhost:3000
 
